@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://byrushan.com/projects/ma/1-6-1/jquery/light/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>StarTutors Admin Login</title>
+
+        <!-- Vendor CSS -->
+        <link href="./index_files/fullcalendar.min.css" rel="stylesheet">
+        <link href="./index_files/animate.min.css" rel="stylesheet">
+        <link href="./index_files/sweetalert.css" rel="stylesheet">
+        <link href="./index_files/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="./index_files/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+
+        <!-- CSS -->
+        <link href="./index_files/app_1.min.css" rel="stylesheet">
+        <link href="./index_files/app_2.min.css" rel="stylesheet">
+
+    <style type="text/css"></style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}
+	
+	#main
+	{
+	background-image:url('./img/banner-home.jpg');
+	  background-size: cover;
+	}
+	
+	#footer, #footer .f-menu>li>a {
+    color: #fff;
+		}
+	
+	</style></head>
+    <body>
+        <header id="header" class="clearfix" data-ma-theme="blue">
+            <ul class="h-inner">
+               
+
+                <li class="hi-logo ">
+                    <a href="./index.html"><img src="./img/logo.png" />  </a>
+                </li>
+
+                
+            </ul>
+
+            <!-- Top Search Content 
+            <div class="h-search-wrap">
+                <div class="hsw-inner">
+                    <i class="hsw-close zmdi zmdi-arrow-left" data-ma-action="search-close"></i>
+                    <input type="text">
+                </div>
+            </div>-->
+        </header>
+
+        <section id="main">
+ 
+			
+			<section id="content" >
+
+                <div class="container container-alt">
+					<div class="card" style="opacity: 0.95;">
+						<div class="card-header">
+								<h2>System Administrator Dashboard Login
+									<small>Enter your email and password below to continue.</small>
+								</h2>
+						</div>
+						<div class="card-body card-padding">
+							<div class="form-group">
+									<div class="fg-line">
+										<input type="text" class="form-control input-lg emailfield" placeholder="Email">
+									</div>
+									<div class="fg-line">
+										<input type="password" class="form-control input-lg passfield" placeholder="Password">
+									</div>
+								</div>
+								
+								<button class="btn btn-primary btn-lg waves-effect lbutt">Login</button>
+						</div>
+					</div>       
+                </div>
+            </section>
+
+            
+        </section>
+
+        <footer id="footer">
+            Copyright © 2016 StarTutors
+
+
+        </footer>
+
+        <!-- Page Loader -->
+        <div class="page-loader" style="display: none;">
+            <div class="preloader pls-blue">
+                <svg class="pl-circular" viewBox="25 25 50 50">
+                    <circle class="plc-path" cx="50" cy="50" r="20"></circle>
+                </svg>
+
+                <p>Please wait...</p>
+            </div>
+        </div>
+
+        <!-- Older IE warning message -->
+        <!--[if lt IE 9]>
+            <div class="ie-warning">
+                <h1 class="c-white">Warning!!</h1>
+                <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+                <div class="iew-container">
+                    <ul class="iew-download">
+                        <li>
+                            <a href="http://www.google.com/chrome/">
+                                <img src="img/browsers/chrome.png" alt="">
+                                <div>Chrome</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.mozilla.org/en-US/firefox/new/">
+                                <img src="img/browsers/firefox.png" alt="">
+                                <div>Firefox</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.opera.com">
+                                <img src="img/browsers/opera.png" alt="">
+                                <div>Opera</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.apple.com/safari/">
+                                <img src="img/browsers/safari.png" alt="">
+                                <div>Safari</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                                <img src="img/browsers/ie.png" alt="">
+                                <div>IE (New)</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>Sorry for the inconvenience!</p>
+            </div>
+        <![endif]-->
+
+        <!-- Javascript Libraries -->
+        <script src="./index_files/jquery.min.js"></script>
+        <script src="./index_files/bootstrap.min.js"></script>
+
+        <script src="./index_files/jquery.flot.js"></script>
+        <script src="./index_files/jquery.flot.resize.js"></script>
+        <script src="./index_files/curvedLines.js"></script>
+        <script src="./index_files/jquery.sparkline.min.js"></script>
+        <script src="./index_files/jquery.easypiechart.min.js"></script>
+
+        <script src="./index_files/moment.min.js"></script>
+        <script src="./index_files/fullcalendar.min.js"></script>
+        <script src="./index_files/jquery.simpleWeather.min.js"></script>
+        <script src="./index_files/waves.min.js"></script>
+        <script src="./index_files/bootstrap-growl.min.js"></script>
+        <script src="./index_files/sweetalert.min.js"></script>
+        <script src="./index_files/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <!-- Placeholder for IE9 -->
+        <!--[if IE 9 ]>
+            <script src="vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
+        <![endif]-->
+
+        <script src="./index_files/app.min.js"></script>
+		<script>
+		function notify(message,type){$.growl({message:message},{type:type,allow_dismiss:!1,label:"Cancel",className:"btn-xs btn-inverse",placement:{from:"bottom",align:"left"},delay:2500,animate:{enter:"animated fadeInUp",exit:"animated fadeOutDown"},offset:{x:30,y:30}})}setTimeout(function(){$(".login-content")[0]||notify("Welcome back Admin","inverse")},1e3);
+		
+			$(function() {
+				$('.lbutt').on('click', function(){
+					turl = "http://tuxlap:8888/login";
+					$.get( turl, { email: $('.emailfield').val(), password: $('.passfield').val() }, function(user) {
+						if(user.usertype == "admin")
+						{
+							localStorage.setItem("authuser", JSON.stringify(user));
+							//console.log(localStorage.getItem("authuser"));
+							window.location.replace("./home.html");
+						}
+						else
+						{
+							localStorage.setItem("authuser", "");
+							notify("Invalid Credentials","inverse")
+						}
+							
+					}).fail(function() {
+						alert( "Connection Error" );
+					});
+					
+				});
+			});
+		</script>
+    
+<div class="login-content" style="display: none;"></div>
+<div class="flot-tooltip" style="display: none;"></div><div class="flot-tooltip" style="display: none;"></div><div class="flot-tooltip" style="display: none;"></div></body></html>
